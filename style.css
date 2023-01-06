@@ -258,7 +258,7 @@ header {
 .container {
   max-width: 120rem;
   margin: 0 auto;
-  padding: 0 3.2rem;
+  padding: 0 3.2rem 0 6.4rem;
 }
 
 .heading-secondary {
