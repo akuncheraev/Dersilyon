@@ -4,7 +4,7 @@
 
 @media (min-width: 100em) {
   .hero-img {
-    width: 115%;
+    /* width: 115%; */
   }
 
   .hero-description {
@@ -31,13 +31,13 @@
   }
 
   .hero {
-    padding-top: 6rem;
+    /* padding-top: 6rem; */
   }
 }
 
 @media (max-width: 65em) {
   .hero {
-    padding: 5rem;
+    /* padding: 5rem; */
     gap: 1rem;
   }
   html {
@@ -78,7 +78,7 @@
   }
 
   .btn-oyna {
-    font-size: 2.4rem;
+    font-size: 3.4rem;
   }
 
   .container {
@@ -86,7 +86,7 @@
   }
 
   .btn-more {
-    font-size: 2.4rem;
+    font-size: 3.4rem;
   }
   .hero-img-box {
     display: flex;
@@ -94,7 +94,7 @@
     justify-content: center;
   }
   .hero-img {
-    width: 60%;
+    width: 70%;
   }
 
   .btn-mobile-nav {
@@ -170,17 +170,20 @@
 
 @media (max-width: 44em) {
   .heading-primary {
-    font-size: 4.8rem;
+    font-size: 5.6rem;
     margin-top: 7.4rem;
     padding: 0;
+  }
+  .hero-description {
+    font-size: 2.7rem;
   }
 
   .header {
     padding: 0 4rem 0 3.2rem;
   }
-  .hero-img {
-    width: 60%;
-  }
+  /* .hero-img {
+    width: 100%;
+  } */
 
   .heading-secondary {
     text-align: center;
@@ -229,22 +232,23 @@
   }
 
   .hero-description {
-    font-size: 2rem;
+    font-size: 2.4rem;
     margin-bottom: 3.2rem;
   }
   .hero-img {
-    width: 75%;
+    width: 105%;
   }
   .heading-primary {
-    font-size: 3.4rem;
+    font-size: 5rem;
     line-height: 1.1;
     margin-bottom: 2.4rem;
     margin-top: 1rem;
   }
 
   .hero {
-    padding-top: 5.4rem;
+    /* padding-top: 5.4rem; */
     gap: 1rem;
+    /* transform: translateY(10%); */
   }
 
   .btn-oyna {
@@ -286,7 +290,7 @@
 
 @media (max-width: 25em) {
   .hero {
-    padding: 4.4rem 3.5rem;
+    /* padding: 4.4rem 3.5rem; */
   }
 
   .heading-primary {
@@ -299,7 +303,11 @@
   }
 
   .btn-oyna {
-    font-size: 2.7rem;
+    font-size: 2.4rem;
+  }
+
+  .btn-more {
+    font-size: 3rem;
   }
 
   .features-container {
@@ -332,7 +340,7 @@
     padding: 6.4rem 3.5rem 4.4rem 3.5rem;
   }
   .btn-oyna {
-    font-size: 2.4rem;
+    font-size: 3rem;
     padding: 0.8rem 2.4rem;
     white-space: nowrap;
   }
@@ -342,7 +350,7 @@
   }
 
   .hero-description {
-    font-size: 1.8rem;
+    font-size: 2.4rem;
   }
   .btn-more {
     padding: 0.4rem 2.2rem;

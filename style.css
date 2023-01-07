@@ -31,6 +31,7 @@ header {
   padding: 0 4rem 0 8rem;
   height: 8rem;
   background-color: #f1ebfc;
+
   position: relative;
 }
 
@@ -107,14 +108,16 @@ header {
 /* **************************************************** */
 
 .hero {
+  /* transform: translateY(-10%); */
   max-width: 130rem;
   display: grid;
-  padding: 2.4rem 3.2rem;
+  padding: 0rem 3.2rem;
   grid-template-columns: 1.5fr 1fr;
   margin: 0 auto;
   gap: 2.4rem;
   align-items: center;
   color: #f1ebfc;
+  padding-bottom: 14rem;
 }
 
 .section-hero {
@@ -124,6 +127,9 @@ header {
 }
 
 .background-img {
+  align-items: center;
+  justify-content: center;
+  display: flex;
   background-size: cover;
   background-image: linear-gradient(
       to right,
@@ -148,7 +154,7 @@ header {
 }
 
 .hero-description {
-  font-size: 2rem;
+  font-size: 2.4rem;
   line-height: 1.6;
   margin-bottom: 6.4rem;
   letter-spacing: 0.5px;
