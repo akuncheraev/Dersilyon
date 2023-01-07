@@ -248,7 +248,7 @@
   .hero {
     /* padding-top: 5.4rem; */
     gap: 1rem;
-    /* transform: translateY(10%); */
+    transform: translateY(10%);
   }
 
   .btn-oyna {
