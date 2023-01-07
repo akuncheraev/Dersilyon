@@ -70,6 +70,7 @@
     margin-top: 10rem;
     font-size: 4.8rem;
     margin-bottom: 1.6rem;
+    padding: 0 9rem;
   }
 
   .hero-description {
@@ -171,6 +172,7 @@
   .heading-primary {
     font-size: 4.8rem;
     margin-top: 7.4rem;
+    padding: 0;
   }
 
   .header {
