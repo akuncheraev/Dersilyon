@@ -67,7 +67,7 @@
   }
 
   .heading-primary {
-    margin-top: 18rem;
+    margin-top: 10rem;
     font-size: 4.8rem;
     margin-bottom: 1.6rem;
   }
@@ -93,7 +93,7 @@
     justify-content: center;
   }
   .hero-img {
-    width: 80%;
+    width: 70%;
   }
 
   .btn-mobile-nav {
