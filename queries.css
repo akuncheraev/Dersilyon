@@ -93,7 +93,7 @@
     justify-content: center;
   }
   .hero-img {
-    width: 70%;
+    width: 60%;
   }
 
   .btn-mobile-nav {
@@ -170,13 +170,14 @@
 @media (max-width: 44em) {
   .heading-primary {
     font-size: 4.8rem;
+    margin-top: 7.4rem;
   }
 
   .header {
     padding: 0 4rem 0 3.2rem;
   }
   .hero-img {
-    width: 75%;
+    width: 60%;
   }
 
   .heading-secondary {
