@@ -444,3 +444,21 @@ header {
   padding: 3rem 0 8rem 20rem;
   font-size: 1.4rem;
 }
+
+/* **************************************************** */
+/* POPUP */
+/* **************************************************** */
+
+.module-text strong {
+  cursor: pointer;
+}
+
+.swal2-popup {
+  font-size: 2rem !important;
+  font-family: 'Roboto', sans-serif;
+}
+
+body.swal2-shown > [aria-hidden="true"] {
+  transition: 0.1s filter;
+  filter: blur(3px);
+}
