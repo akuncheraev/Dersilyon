@@ -200,6 +200,7 @@
 
   .features-container {
     column-gap: 3.6rem;
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .footer {
@@ -278,6 +279,7 @@
     padding: 2.4rem 0rem 9.6rem 0rem;
     margin-left: 6.4rem;
     column-gap: 3.4rem;
+    grid-template-columns: 1fr;
   }
 
   .footer {
