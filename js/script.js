@@ -25,12 +25,16 @@ allLinks.forEach(function (link) {
     // Close mobile naviagtion
     if (link.classList.contains("main-nav-link"))
       headerEl.classList.toggle("nav-open");
+    navItemEl.forEach((item) => item.classList.toggle("open"));
   });
 });
 
 const btnNavEl = document.querySelector(".btn-mobile-nav");
 const headerEl = document.querySelector(".header");
+const navItemEl = document.querySelectorAll(".menu-nav__item");
 
 btnNavEl.addEventListener("click", function () {
   headerEl.classList.toggle("nav-open");
+  // navItemEl.classList.toggle("nav-open");
+  navItemEl.forEach((item) => item.classList.toggle("open"));
 });

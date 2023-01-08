@@ -483,3 +483,44 @@ body.swal2-shown > [aria-hidden="true"] {
   background-color: #fff;
   color: #7333df;
 }
+
+/* TEST */
+
+.menu-btn__burger {
+  position: absolute;
+  right: 2.4rem;
+  top: 3.7rem;
+  width: 28px;
+  height: 3px;
+  background: #7333df;
+  transition: all 0.5s ease-in-out;
+}
+.menu-btn__burger::before {
+  content: "";
+  position: absolute;
+  top: -8px;
+  width: 28px;
+  height: 3px;
+  background: #7333df;
+  transition: all 0.5s ease-in-out;
+}
+.menu-btn__burger::after {
+  content: "";
+  position: absolute;
+  top: 8px;
+  width: 20px;
+  height: 3px;
+  background: #7333df;
+  transition: all 0.5s ease-in-out;
+}
+.header.nav-open .menu-btn__burger {
+  transform: rotate(720deg);
+  background: transparent;
+}
+.header.nav-open .menu-btn__burger::before {
+  transform: rotate(45deg) translate(5px, 8px);
+}
+.header.nav-open .menu-btn__burger::after {
+  width: 28px;
+  transform: rotate(-45deg) translate(3px, -7px);
+}
