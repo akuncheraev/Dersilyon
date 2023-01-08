@@ -133,6 +133,7 @@
   }
 
   .nav-open .main-nav {
+    z-index: 1;
     opacity: 1;
     pointer-events: auto;
     visibility: visible;
