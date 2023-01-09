@@ -239,7 +239,9 @@ header {
   width: 100%;
 }
 
-.btn-more {
+.btn-more,
+.btn-more:active,
+.btn-more:visited {
   font-weight: 500;
   letter-spacing: -1px;
   display: inline-block;
@@ -480,6 +482,9 @@ header {
   color: #555;
 }
 
+.footer-link {
+  text-decoration: none;
+}
 .copyright {
   background-color: #fff;
   /* padding-left: 20rem;
