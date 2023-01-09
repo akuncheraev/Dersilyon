@@ -65,3 +65,27 @@ const obs = new IntersectionObserver(
   }
 );
 obs.observe(sectionHeroEl);
+
+const sectionModEl = document.querySelector(".section-modules");
+
+const obsMod = new IntersectionObserver(
+  function (entries) {
+    const ent = entries[0];
+    console.log(ent);
+
+    if (ent.isIntersecting === false) {
+      document.body.classList.add("stickyMod");
+    }
+
+    if (ent.isIntersecting === true) {
+      document.body.classList.remove("stickyMod");
+    }
+  },
+  {
+    // In the viewport
+    root: null,
+    threshold: 0,
+    rootMargin: "-80px",
+  }
+);
+obsMod.observe(sectionModEl);
