@@ -4,7 +4,7 @@
 
 @media (min-width: 100em) {
   .hero-img {
-    /* width: 115%; */
+    width: 115%; 
   }
 
   .hero-description {
@@ -94,7 +94,7 @@
     justify-content: center;
   }
   .hero-img {
-    width: 70%;
+    width: 85%;
   }
 
   .btn-mobile-nav {
